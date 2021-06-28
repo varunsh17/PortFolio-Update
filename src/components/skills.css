@@ -1,0 +1,73 @@
+.skills{
+    background-color: rgb(111, 109, 255,1);
+    /* height: 65vh; */
+}
+.skills .content{
+    padding: 40px 0;
+}
+.skills .skill-details{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.skills .skill-details .left{
+    width: 50%;
+}
+.skill-details .left p{
+    text-align: justify;
+}
+.skill-details .left .topic{
+    color: white;
+}
+.skill-details .left .experience{
+    display: flex;
+    align-items: center;
+}
+.skill-details .left .experience .num{
+    font-size: 80px;
+    font-weight: 500;
+}
+.skill-details .left .experience .exo{
+    font-size: 18px;
+    font-weight: 500;
+}
+.skills .skill-details .boxes{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skills .skill-details .boxes .box{
+width: calc(100% / 2 -20px);
+}
+.skill-details .boxes .box .topic{
+    font-size:21px ;
+    font-weight: 500;
+    color: turquoise;
+
+}
+.skill-details .boxes .box .num{
+    font-size:50px ;
+    font-weight: 500;
+}
+@media (max-width:1190px) {
+    .skills .content{
+        width: 90%;
+    }
+    
+}
+@media (max-width:750px) {
+    .skills .skill-details{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .skills .skill-details .left{
+        width: 90%;
+    }
+    .skills .skill-details .boxes{
+        width: 90%;
+        margin: 40px 0;
+    }
+    
+}
