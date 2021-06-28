@@ -43,7 +43,9 @@ width: calc(100% / 2 -20px);
 .skill-details .boxes .box .topic{
     font-size:21px ;
     font-weight: 500;
-    color: turquoise;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 106, 130);
 
 }
 .skill-details .boxes .box .num{

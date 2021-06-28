@@ -1,3 +1,6 @@
+section{
+    padding-top: 40px;
+}
 section .content{
     width: 80%;
     margin: 40px auto;
@@ -75,8 +78,7 @@ section .button button{
 section .button button:hover{
     color:rgb(8, 45, 255) ;
     background-color: white;
-    border: 1px solid blue;
-
+    transform: scale(1.3);
 }
 @media (max-width:1190px) {
     .about .content{
@@ -88,7 +90,7 @@ section .button button:hover{
         flex-direction: column;
     }
     .about .about-details .right{
-        width: 100%;
+        width: 90%;
         display: flex;
         justify-content: center;
     }
@@ -100,8 +102,8 @@ section .button button:hover{
 
 @media (max-width:971px) {
     .about .about-details .right img{
-        height: 350px;
-        width: 350px;
+        height: 250px;
+        width: 250px;
     
     }
 }

@@ -1,0 +1,12 @@
+.top1 a i{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 7px 12px;
+    color: blue;
+    z-index: 777;
+
+}
+.top1 a i:hover{
+    transform: scale(1.3);
+}

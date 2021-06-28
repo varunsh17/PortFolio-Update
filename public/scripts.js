@@ -7,6 +7,7 @@ menuBtn.onclick=function(){
     menuBtn.style.opacity="0";
     menuBtn.style.pointerEvents="none";
     navBar.classList.add("active");
+
 }
 
 cancelBtn.onclick=function(){
@@ -23,4 +24,12 @@ window.onscroll=function(){
     }else{
         nav.classList.remove("sticky")
     }
+}
+let navLinks=document.querySelectorAll(".menu li a");
+for (var i=0;i<navLinks.length;i++){
+    navLinks[i].addEventListener("click",()=>{
+        menuBtn.style.opacity="1";
+        menuBtn.style.pointerEvents="auto";
+        navBar.classList.remove("active");
+    })
 }

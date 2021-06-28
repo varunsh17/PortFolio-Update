@@ -1,0 +1,29 @@
+.contact .text{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.contact-icons a{
+    font-size: 60px;
+    margin: 0 16px;
+    color: rgb(0, 0, 0);
+}
+.contact-icons a i{
+    transition: all .5s ease;
+
+
+}
+.contact-icons a:hover i{
+    color: rgb(0, 247, 255);
+    transform: scale(1.5);
+}
+@media (max-width:1090px) {
+    .contact .text{
+        width: 90%;
+    }
+}
+@media (max-width:720px) {
+    .contact .text{
+        width: 100%;
+    }
+}

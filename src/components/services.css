@@ -1,0 +1,42 @@
+.services .boxes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.services .boxes .box{
+    width: calc(100%/3 - 30px);
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0px 10px 7px rgba(0,0,0,.2);
+    padding: 30px 20px;
+    text-align: center;
+}
+.services .boxes .box .icon{
+    height: 50px;
+    width: 50px;
+    background-color: royalblue;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 50px;
+    margin: 0 auto 10px auto;
+    transition: all .4s ease;
+}
+.services .boxes .box:hover .icon{
+    background-color: blue;
+    color: cornsilk;
+}
+.services .boxes .box:hover{
+    background: #56ccf2;
+}
+.services .boxes .box:hover .topic{
+    color: black;
+}
+@media (max-width:1190px) {
+    .services .content{width: 90%;}
+}
+@media (max-width:1090px) {
+    .services .boxes .box{width: calc(100% / 2 - 20px);}
+}
+@media (max-width:660px) {
+    .services .boxes .box{width:100%}
+}
