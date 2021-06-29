@@ -4,7 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
-import Top from "./components/Scrolltop"
+import Top from "./components/Scrolltop";
 function App() {
   return (
     <div>

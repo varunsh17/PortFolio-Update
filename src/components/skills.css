@@ -1,6 +1,9 @@
 .skills{
-    background-color: rgb(111, 109, 255,1);
+    /* background-color: rgb(111, 109, 255,1); */
     /* height: 65vh; */
+    background-image: url("./images/abstract3.jpg");
+    background-size: cover;
+    background-position: left;
 }
 .skills .content{
     padding: 40px 0;

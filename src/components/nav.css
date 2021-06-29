@@ -16,6 +16,7 @@ nav{
 nav.sticky{
     padding: 13px 0;
     background-color: rgb(0, 132, 255);
+
 }
 nav .navbar{
     width: 90%;
@@ -48,10 +49,10 @@ nav .navbar .menu li{
 }
 
 nav.sticky .navbar .menu li a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 nav.sticky .navbar .menu li a:hover{
-    color: rgb(255, 230, 230);
+    color: rgb(0, 0, 0);
 }
 .navbar .menu li a:hover,
 nav.sticky .menu li a:hover{
@@ -92,7 +93,9 @@ nav .menu-btn{
         height: 100vh;
         max-width: 400px;
         width: 100%;
-        background-color: #00b4db;
+        /* background-color: #00b4db; */
+        background-image: url("./images/abstract1.jpg");
+        background-size: cover;
         flex-direction: column;
         align-items: center;
         padding-top: 60px;

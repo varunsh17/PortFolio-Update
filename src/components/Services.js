@@ -13,54 +13,42 @@ function Services() {
                         <i class="fa fa-desktop" aria-hidden="true"></i>
                         </div>
                         <div className="topic">Front-end</div>
-                        <p>Lorem Ipsum is simply dummy text of the print
-                        ing and typesetting industry. Lorem Ipsum has 
-                        been the</p>
+                        <p>It's been 4 months since I am doing Front-end made this portfolio with other websites  </p>
                         </div>
                         <div className="box">
                         <div className="icon">
                         <i class="fa fa-desktop" aria-hidden="true"></i>
                         </div>
                         <div className="topic">Backend</div>
-                        <p>Lorem Ipsum is simply dummy text of the print
-                        ing and typesetting industry. Lorem Ipsum has 
-                        been the</p>
+                        <p>Currently learning, will update soon !</p>
                         </div>
                         <div className="box">
                         <div className="icon">
                         <i class="fa fa-desktop" aria-hidden="true"></i>
                         </div>
                         <div className="topic">MERN Stack</div>
-                        <p>Lorem Ipsum is simply dummy text of the print
-                        ing and typesetting industry. Lorem Ipsum has 
-                        been the</p>
+                        <p>Learning the finish up </p>
                         </div>
                         <div className="box">
                         <div className="icon">
                         <i class="fa fa-desktop" aria-hidden="true"></i>
                         </div>
                         <div className="topic">Competetive Programming</div>
-                        <p>Lorem Ipsum is simply dummy text of the print
-                        ing and typesetting industry. Lorem Ipsum has 
-                        been the</p>
+                        <p>Practice makes a man perfect </p>
                         </div>
                         <div className="box">
                         <div className="icon">
                         <i class="fa fa-desktop" aria-hidden="true"></i>
                         </div>
                         <div className="topic">Python</div>
-                        <p>Lorem Ipsum is simply dummy text of the print
-                        ing and typesetting industry. Lorem Ipsum has 
-                        been the</p>
+                        <p>Know Python, but also familiar with Java </p>
                         </div>
                         <div className="box">
                         <div className="icon">
                         <i class="fa fa-desktop" aria-hidden="true"></i>
                         </div>
                         <div className="topic">Coming Soon</div>
-                        <p>Lorem Ipsum is simply dummy text of the print
-                        ing and typesetting industry. Lorem Ipsum has 
-                        been the</p>
+                        <p>Will update </p>
                         </div>
                     </div>
                 </div>

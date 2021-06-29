@@ -10,27 +10,34 @@
     box-shadow: 0px 10px 7px rgba(0,0,0,.2);
     padding: 30px 20px;
     text-align: center;
+    background-image: url("./images/abstract5.jpg");
+    background-size: cover;
 }
 .services .boxes .box .icon{
     height: 50px;
     width: 50px;
-    background-color: royalblue;
     text-align: center;
     border-radius: 50%;
     line-height: 50px;
     margin: 0 auto 10px auto;
     transition: all .4s ease;
 }
-.services .boxes .box:hover .icon{
-    background-color: blue;
-    color: cornsilk;
-}
+.services .boxes .box:hover .icon{color: cornsilk;}
+
 .services .boxes .box:hover{
-    background: #56ccf2;
+    background-image: url("./images/abstract3.jpg");
+    background-size: cover;
+}
+.services .boxes .box .topic{
+    color: rgb(0, 0, 0);
 }
 .services .boxes .box:hover .topic{
-    color: black;
+    color: rgb(255, 255, 255);
 }
+.box p{
+    font-weight: 500;
+}
+
 @media (max-width:1190px) {
     .services .content{width: 90%;}
 }
