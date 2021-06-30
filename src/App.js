@@ -5,9 +5,11 @@ import Skills from "./components/Skills";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Top from "./components/Scrolltop";
+import Landing from "./components/Landing";
 function App() {
   return (
     <div>
+    <Landing/>
     <Top/>
     <Navigation/>
     <Home/>

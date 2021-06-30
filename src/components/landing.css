@@ -1,0 +1,23 @@
+.landingall{
+    background: url("./images/laptop2.jpg") center center;
+    background-size: cover;
+    height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 99999;
+}
+.landing-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+color: blanchedalmond;
+    font-size: 1.5rem;
+}
+@media (max-width:970px) {
+    .landing-text{
+        font-size: 1rem;
+    }
+}

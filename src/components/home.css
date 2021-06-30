@@ -26,10 +26,11 @@
 .home .text .text-three{
     font-size: 40px; 
 }
-.home .text .text-four{
+/* .home .text .text-four{
     font-size: 25px;
     margin:5px 0 ;   
-}
+    color: white;
+} */
 .home .button{
     margin: 14px 0;
 }
