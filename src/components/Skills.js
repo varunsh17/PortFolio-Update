@@ -18,23 +18,23 @@ function Skills() {
                         
                     </div>
                     <div className="boxes">
-                        <div className="box">
+                        <div className="bux">
                             <div className="topic">HTML</div>
                             <div className="num">90%</div>
                         </div>
-                        <div className="box">
+                        <div className="bux">
                             <div className="topic">CSS</div>
                             <div className="num">70%</div>
                         </div>
-                        <div className="box">
+                        <div className="bux">
                             <div className="topic">REACT JS</div>
                             <div className="num">60%</div>
                         </div>
-                        <div className="box">
+                        <div className="bux">
                             <div className="topic">NODE JS</div>
                             <div className="num">80%</div>
                         </div>
-                        <div className="box">
+                        <div className="bux">
                             <div className="topic">MONGO DB</div>
                             <div className="num">80%</div>
                         </div>

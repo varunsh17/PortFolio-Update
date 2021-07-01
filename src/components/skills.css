@@ -40,10 +40,10 @@ justify-content: space-between;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.skills .skill-details .boxes .box{
+.skills .skill-details .boxes .bux{
 width: calc(100% / 2 -20px);
 }
-.skill-details .boxes .box .topic{
+.skill-details .boxes .bux .topic{
     font-size:21px ;
     font-weight: 500;
     color: rgb(255, 255, 255);
@@ -51,7 +51,7 @@ width: calc(100% / 2 -20px);
     text-decoration-color: rgb(255, 106, 130);
 
 }
-.skill-details .boxes .box .num{
+.skill-details .boxes .bux .num{
     font-size:50px ;
     font-weight: 500;
 }
