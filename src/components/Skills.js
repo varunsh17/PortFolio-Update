@@ -9,12 +9,13 @@ function Skills() {
                     <div className="skill-details">
                         <div className="left">
                             <div className="topic">Skills reflect our knowledge</div>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took 
-                                a galley of type and scrambled .</p>
+                            <p>Right now learning web development since 6 months ,backend is still ongoing and going to 
+                            become Full stack soon Here are my skills ratio till now.</p>
                             <div className="experience">
-                                <div className="num">10</div>
+                                <div className="num">0</div>
                                 <div className="exp">Years <br/>Of experience</div>
                             </div>
+                            Hoping to gain more knowledge and experience from you 
                         
                     </div>
                     <div className="boxes">
@@ -28,15 +29,15 @@ function Skills() {
                         </div>
                         <div className="bux">
                             <div className="topic">REACT JS</div>
-                            <div className="num">60%</div>
+                            <div className="num">80%</div>
                         </div>
                         <div className="bux">
                             <div className="topic">NODE JS</div>
-                            <div className="num">80%</div>
+                            <div className="num">50%</div>
                         </div>
                         <div className="bux">
                             <div className="topic">MONGO DB</div>
-                            <div className="num">80%</div>
+                            <div className="num">70%</div>
                         </div>
                     </div>
                     </div>

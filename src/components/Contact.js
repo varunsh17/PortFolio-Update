@@ -8,8 +8,8 @@ function Conatct() {
                      <div className="title"><span>Contact Me</span></div>
                      <div className="text">
                          <div className="topic">Have Any Work For Me ?</div>
-                         <p>def f fef wedfwefweifn efe
-                         is simply dummy text of the printing and typesetting industry. 
+                         <p>
+                         simply dummy text of the printing and typesetting industry. 
                          Lorem Ipsum has been the industry's standard dummy text ever since the </p>
                          <div className="button">
                             <button>Let's Chat</button>
