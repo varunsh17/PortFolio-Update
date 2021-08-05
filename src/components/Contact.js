@@ -18,7 +18,7 @@ function Conatct() {
                          
                         <a href="https://github.com/varunsh17"><i class="fa fa-github" aria-hidden="true"></i></a>
         
-                        <a href="https://mail.google.com/mail/u/1/#inbox?compose=VpCqJKjNXqdcSwRDWZXtLRDTQwQsMlQKsRjGQHNPGzCBpfRfwhZpGJKrTDTlQkxZLmxQPhl"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                        <a href="mailto:varunsh170502@gmail.com?subject=Work for me &body=Hello Varun I wanted to takl to you"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                      </div>
                      
                      </div>
