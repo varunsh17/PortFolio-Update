@@ -17,7 +17,8 @@ function Conatct() {
                          <div className="contact-icons">
                          
                         <a href="https://github.com/varunsh17"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjstzrZqKpfLtqzXwBmldcpDcKdtNxWVCzvJfLncrtdmbCSjFRhCxlNqBxbJzsqZwgRbbW"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        
+                        <a href="https://mail.google.com/mail/u/1/#inbox?compose=VpCqJKjNXqdcSwRDWZXtLRDTQwQsMlQKsRjGQHNPGzCBpfRfwhZpGJKrTDTlQkxZLmxQPhl"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                      </div>
                      
                      </div>
