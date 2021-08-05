@@ -16,9 +16,6 @@ function Conatct() {
                         </div>
                          <div className="contact-icons">
                          
-                         <a href="https://www.facebook.com/profile.php?id=100012104927013"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="https://twitter.com/varunsh71?s=09"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="https://www.instagram.com/varunvoid/?r=nametag"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         <a href="https://github.com/varunsh17"><i class="fa fa-github" aria-hidden="true"></i></a>
                         <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKjstzrZqKpfLtqzXwBmldcpDcKdtNxWVCzvJfLncrtdmbCSjFRhCxlNqBxbJzsqZwgRbbW"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                      </div>
