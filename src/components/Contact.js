@@ -20,7 +20,7 @@ function Conatct() {
                         <a href="https://twitter.com/varunsh71?s=09"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/varunvoid/?r=nametag"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         <a href="https://github.com/varunsh17"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        <a href="/"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+                        <a href="mailto:varunsh170502@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
                      </div>
                      
                      </div>
