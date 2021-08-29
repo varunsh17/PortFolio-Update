@@ -1,78 +1,91 @@
-.skills{
-    /* background-color: rgb(111, 109, 255,1); */
-    /* height: 65vh; */
-    background-image: url("./images/abstract3.jpg");
-    background-size: cover;
-    background-position: left;
+.skills {
+  /* background-color: rgb(111, 109, 255,1); */
+  /* height: 65vh; */
+  background-image: url("./images/abstract3.jpg");
+  background-size: cover;
+  background-position: left;
 }
-.skills .content{
-    padding: 40px 0;
+.skills .content {
+  padding: 40px 0;
 }
-.skills .skill-details{
-display: flex;
-align-items: center;
-justify-content: space-between;
+.skills .skill-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.skills .skill-details .left{
-    width: 50%;
+.skills .skill-details .left {
+  width: 50%;
 }
-.skill-details .left p{
-    text-align: justify;
+.skill-details .left p {
+  text-align: justify;
 }
-.skill-details .left .topic{
-    color: white;
+.skill-details .left .topic {
+  color: white;
 }
-.skill-details .left .experience{
-    display: flex;
+.skill-details .left .experience {
+  display: flex;
+  align-items: center;
+}
+.skill-details .left .experience .num {
+  font-size: 80px;
+  font-weight: 500;
+}
+.skill-details .left .experience .exo {
+  font-size: 18px;
+  font-weight: 500;
+}
+.skills .skill-details .boxes {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills .skill-details .boxes .bux {
+  width: calc(100% / 2 -20px);
+  margin: 1rem;
+}
+.skill-details .boxes .bux .topic {
+  font-size: 5vw;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 106, 130);
+}
+.skill-details .boxes .bux .num {
+  font-size: 50px;
+  font-weight: 500;
+}
+.mongo {
+  font-size: 5vw;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 106, 130);
+}
+@media (max-width: 1190px) {
+  .skills .content {
+    width: 90%;
+  }
+}
+@media (max-width: 750px) {
+  .skills .skill-details {
+    flex-direction: column;
     align-items: center;
-}
-.skill-details .left .experience .num{
-    font-size: 80px;
-    font-weight: 500;
-}
-.skill-details .left .experience .exo{
-    font-size: 18px;
-    font-weight: 500;
-}
-.skills .skill-details .boxes{
-    width: 45%;
-    display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+  }
+  .skills .skill-details .left {
+    width: 90%;
+  }
+  .skills .skill-details .boxes {
+    width: 90%;
+    margin: 40px 0;
+  }
 }
-.skills .skill-details .boxes .bux{
-width: calc(100% / 2 -20px);
-}
-.skill-details .boxes .bux .topic{
-    font-size:21px ;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    text-decoration-color: rgb(255, 106, 130);
-
-}
-.skill-details .boxes .bux .num{
-    font-size:50px ;
-    font-weight: 500;
-}
-@media (max-width:1190px) {
-    .skills .content{
-        width: 90%;
-    }
-    
-}
-@media (max-width:750px) {
-    .skills .skill-details{
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .skills .skill-details .left{
-        width: 90%;
-    }
-    .skills .skill-details .boxes{
-        width: 90%;
-        margin: 40px 0;
-    }
-    
+@media (max-width: 550px) {
+  .skill-details .boxes .bux .topic {
+    font-size: 14vw;
+  }
+  .mongo {
+    font-size: 13vw;
+  }
 }
