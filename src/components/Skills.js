@@ -29,7 +29,7 @@ function Skills() {
                                 <div className="topic">NODE JS</div>
                             </div>
                             <div className="bux">
-                                <div className="topic" className="mongo">MONGO DB</div>
+                                <div className="topic">MONGO DB</div>
                             </div>
                             <div className="bux">
                                 <div className="topic">PYTHON</div>

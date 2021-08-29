@@ -42,10 +42,10 @@
 }
 .skills .skill-details .boxes .bux {
   width: calc(100% / 2 -20px);
-  margin: 1rem;
+  margin-right: 1rem;
 }
 .skill-details .boxes .bux .topic {
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: 500;
   color: rgb(255, 255, 255);
   text-decoration: underline;
@@ -55,13 +55,7 @@
   font-size: 50px;
   font-weight: 500;
 }
-.mongo {
-  font-size: 5vw;
-  font-weight: 500;
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 106, 130);
-}
+
 @media (max-width: 1190px) {
   .skills .content {
     width: 90%;
@@ -83,9 +77,6 @@
 }
 @media (max-width: 550px) {
   .skill-details .boxes .bux .topic {
-    font-size: 14vw;
-  }
-  .mongo {
-    font-size: 13vw;
+    font-size: 7vw;
   }
 }
