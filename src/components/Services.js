@@ -6,7 +6,7 @@ function Services() {
         <div>
             <section className="services" id="services">
                 <div className="content">
-                    <div className="title"><span>My Projects & Achievements</span></div>
+                    <div className="title"><span>Projects</span></div>
                     <div className="boxes">
                         <div className="box">
                             <div className="icon">
