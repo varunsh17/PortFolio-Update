@@ -15,7 +15,7 @@ function Services() {
                     <div className="card-body">
                         <h5 className="card-title">Movie streaming Website </h5>
                         <p className="card-text">use of API for search bar ,html,css</p>
-                        <a href="https://movie17.netlify.app/" className="btn btn-primary">Project Link</a>
+                        <a href="https://movie17.netlify.app/" target="_blank" className="btn btn-primary">Project Link</a>
                     </div>
                 </div>
                 {/* 2ND */}
@@ -24,7 +24,7 @@ function Services() {
                     <div className="card-body">
                         <h5 className="card-title">Chrome Extension</h5>
                         <p className="card-text">A Water Reminder for drinking water in desired amount of time .</p>
-                        <a href="https://chrome.google.com/webstore/detail/stay-hydrated/fomabijmpnfclpemikfcenpgpampogmo?hl=en-US" className="btn btn-primary">Project Link</a>
+                        <a href="https://chrome.google.com/webstore/detail/stay-hydrated/fomabijmpnfclpemikfcenpgpampogmo?hl=en-US" target="_blank" className="btn btn-primary">Project Link</a>
                     </div>
                 </div>
                 {/* 3RD */}
@@ -33,7 +33,7 @@ function Services() {
                     <div className="card-body">
                         <h5 className="card-title">FireChat</h5>
                         <p className="card-text">A firebase Chatting website made using Firebase and React-js as real time datebase with google authentication  </p>
-                        <a href="https://firechat17.netlify.app" className="btn btn-primary">Go to Firechat</a>
+                        <a href="https://firechat17.netlify.app" target="_blank" className="btn btn-primary">Go to Firechat</a>
                     </div>
                 </div>
 

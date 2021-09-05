@@ -17,7 +17,8 @@ function Home() {
 
                         </div>
                         <div className="button">
-                            <button>Hire Me</button>
+                            <a href="mailto:varunsh170502@gmail.com?subject=Regarding Hiring you &body=Hello Varun, I am ..."><button>Hire Me</button></a>
+
                         </div>
                     </div>
                 </div>
