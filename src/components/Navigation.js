@@ -2,31 +2,26 @@ import React from 'react'
 import "./nav.css"
 function Navigation() {
     return (
-        <div className="navall">
-        <nav>
-        <div className="navbar">
-            <div className="logo"><a href="#home">Portfolio</a></div>
-            <ul className="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <div className="cancel-btn">
-        <i className="fa fa-times" aria-hidden="true"></i>
-        </div>
-            </ul>
-            <div className="media-icons">
-                <a href="https://github.com/varunsh17"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <nav className="sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="#home">Varun Sharma</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li className="nav-item"><a className="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#skills">Skills</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#services">Projects</a></li>
+                        <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
+
+
+                    </ul>
+
+                </div>
             </div>
-        </div>
-        <div className="menu-btn">
-        <i className="fa fa-bars" aria-hidden="true"></i>
-        </div>
-            
         </nav>
-        
-        </div>
     )
 }
 

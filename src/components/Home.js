@@ -12,11 +12,6 @@ function Home() {
                             <div className="text-one">Hello,</div>
                             <div className="text-two">I'm Varun Sharma</div>
                             <div className="text-three">
-                                {/* <Typical
-        steps={['Frontend', 3000,'React js',3000,'MERN',3000,'Python','Mongo DB',3000]}
-        loop={Infinity}
-        wrapper="p"
-      /> */}
                             </div>
 
 

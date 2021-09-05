@@ -1,82 +1,24 @@
 .skills {
-  /* background-color: rgb(111, 109, 255,1); */
-  /* height: 65vh; */
-  background-image: url("./images/abstract3.jpg");
-  background-size: cover;
-  background-position: left;
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  min-height: 80vh;
 }
 .skills .content {
-  padding: 40px 0;
+  padding: 5px 0;
 }
-.skills .skill-details {
+.skill-details {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-.skills .skill-details .left {
-  width: 50%;
-}
-.skill-details .left p {
-  text-align: justify;
-}
-.skill-details .left .topic {
-  color: white;
-}
-.skill-details .left .experience {
-  display: flex;
-  align-items: center;
-}
-.skill-details .left .experience .num {
-  font-size: 80px;
-  font-weight: 500;
-}
-.skill-details .left .experience .exo {
-  font-size: 18px;
-  font-weight: 500;
-}
-.skills .skill-details .boxes {
-  width: 45%;
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+  min-height: 30vh;
 }
-.skills .skill-details .boxes .bux {
-  width: calc(100% / 2 -20px);
-  margin-right: 1rem;
+.skill-details span {
+  font-size: 30px;
+  margin: 1rem;
+  margin-bottom: 3rem;
 }
-.skill-details .boxes .bux .topic {
-  font-size: 2vw;
-  font-weight: 500;
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 106, 130);
-}
-.skill-details .boxes .bux .num {
-  font-size: 50px;
-  font-weight: 500;
-}
-
 @media (max-width: 1190px) {
   .skills .content {
     width: 90%;
-  }
-}
-@media (max-width: 750px) {
-  .skills .skill-details {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .skills .skill-details .left {
-    width: 90%;
-  }
-  .skills .skill-details .boxes {
-    width: 90%;
-    margin: 40px 0;
-  }
-}
-@media (max-width: 550px) {
-  .skill-details .boxes .bux .topic {
-    font-size: 5vw;
   }
 }

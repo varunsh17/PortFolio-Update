@@ -1,53 +1,43 @@
 import React from 'react'
 import "./services.css"
-import "../vanilla-tilt"
+import image from "./images/movie.png"
 function Services() {
     return (
         <div>
             <section className="services" id="services">
                 <div className="content">
                     <div className="title"><span>Projects</span></div>
-                    <div className="boxes">
-                        <div className="box">
-                            <div className="icon">
-                                <i class="fa fa-desktop" aria-hidden="true"></i>
-                            </div>
-                            <div className="topic">E-sports website</div>
-                            <p><a href="https://riotgaming.herokuapp.com/" target="_blank" style={{ color: "white" }}>VIEW PROJECT</a></p>
-                        </div>
-                        <div className="box">
-                            <div className="icon">
-                                <i class="fa fa-desktop" aria-hidden="true"></i>
-                            </div>
-                            <div className="topic">Backend</div>
-                            <p>Currently learning, will update soon !</p>
-                        </div>
-                        <div className="box">
-                            <div className="icon">
-                                <i class="fa fa-desktop" aria-hidden="true"></i>
-                            </div>
-                            <div className="topic">Competetive</div>
-                            <p><a href="https://www.codechef.com/users/varunsh17" target="_blank" style={{ color: "green" }}>CodeChef</a>
-                                <a href="https://leetcode.com/varunsh170502/" target="_blank" style={{ color: "brown" }}>   LeetCode</a>
-                                <a href="https://codeforces.com/profile/varunsh17" target="_blank" style={{ color: "blue" }}>    CodeForces</a></p>
-                        </div>
-                        <div className="box">
-                            <div className="icon">
-                                <i class="fa fa-desktop" aria-hidden="true"></i>
-                            </div>
-                            <div className="topic">Python</div>
-                            <p>Know Python, but also familiar with Java </p>
-                        </div>
-                        <div className="box">
-                            <div className="icon">
-                                <i class="fa fa-desktop" aria-hidden="true"></i>
-                            </div>
-                            <div className="topic">Coming Soon</div>
-                            <p>Will update </p>
-                        </div>
-                    </div>
                 </div>
             </section>
+            <div className="d-flex justify-content-around flex-wrap mx-5">
+                <div className="card my-4" style={{ width: '20rem' }}>
+                    <img src={image} className="card-img-top" alt="..." style={{ height: "35vh" }} />
+                    <div className="card-body">
+                        <h5 className="card-title">Movie streaming Website </h5>
+                        <p className="card-text">use of API for search bar ,html,css</p>
+                        <a href="https://movie17.netlify.app/" className="btn btn-primary">Project Link</a>
+                    </div>
+                </div>
+                {/* 2ND */}
+                <div className="card my-4" style={{ width: '20rem' }}>
+                    <img src="https://lh3.googleusercontent.com/I_UNnMoOxIXPSINHFgvbZ5_Yo-0v7eF_YYWcqsjUje79fQIeUQFsuiPwRwd9sesax0Wdu9BNJcSlfVcQv1Zas0Ejjg=w640-h400-e365-rj-sc0x00ffffff" className="card-img-top" alt="..." style={{ height: "35vh" }} />
+                    <div className="card-body">
+                        <h5 className="card-title">Chrome Extension</h5>
+                        <p className="card-text">A Water Reminder for drinking water in desired amount of time .</p>
+                        <a href="https://chrome.google.com/webstore/detail/stay-hydrated/fomabijmpnfclpemikfcenpgpampogmo?hl=en-US" className="btn btn-primary">Project Link</a>
+                    </div>
+                </div>
+                {/* 3RD */}
+                <div className="card my-4" style={{ width: '20rem' }}>
+                    <img src="https://i2.wp.com/devdactic.com/wp-content/uploads/2020/10/ionic-firebase-chat.png?resize=720%2C400&ssl=1" className="card-img-top" alt="..." style={{ height: "35vh" }} />
+                    <div className="card-body">
+                        <h5 className="card-title">FireChat</h5>
+                        <p className="card-text">A firebase Chatting website made using Firebase and React-js as real time datebase with google authentication  </p>
+                        <a href="https://firechat17.netlify.app" className="btn btn-primary">Go to Firechat</a>
+                    </div>
+                </div>
+
+            </div>
         </div >
     )
 }

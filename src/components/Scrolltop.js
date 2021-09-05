@@ -3,7 +3,7 @@ import "./scrolltop.css"
 function Scrolltop() {
     return (
         <div className="top1">
-            <a href="#home"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+            <a href="#home"><i className="fa fa-arrow-up" aria-hidden="true"></i></a>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-.services .boxes{
+/* .services .boxes{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -46,4 +46,4 @@
 }
 @media (max-width:660px) {
     .services .boxes .box{width:100%}
-}
+} */

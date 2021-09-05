@@ -7,37 +7,23 @@ function Skills() {
                 <div className="content">
                     <div className="title"><span>My Skills</span></div>
                     <div className="skill-details">
-                        <div className="left">
-                            <div className="topic">Skills reflect our knowledge</div>
-                            <p>Right now learning web development since 6 months ,backend is still ongoing and going to
-                                become Full stack soon Here are my skills till now.</p>
-                            <div className="experience">
-                                <div className="num">0</div>
-                                <div className="exp">Years <br />Of experience</div>
-                            </div>
-                            Hoping to gain more knowledge and experience from you
 
-                        </div>
-                        <div className="boxes">
-                            <div className="bux">
-                                <div className="topic">CSS</div>
-                            </div>
-                            <div className="bux">
-                                <div className="topic">REACT JS</div>
-                            </div>
-                            <div className="bux">
-                                <div className="topic">NODE JS</div>
-                            </div>
-                            <div className="bux">
-                                <div className="topic">MONGO DB</div>
-                            </div>
-                            <div className="bux">
-                                <div className="topic">PYTHON</div>
-                            </div>
-                        </div>
+                        <span className="badge bg-dark" >Html & Css</span>
+                        <span className="badge bg-dark" >Node js</span>
+                        <span className="badge bg-dark" >React js</span>
+                        <span className="badge bg-dark" >Mongo DB</span>
+                        <span className="badge bg-dark" >Express js</span>
+                        <span className="badge bg-dark" >Python</span>
+                        <span className="badge bg-dark" >Bootstrap</span>
+                        <span className="badge bg-dark" >Express js</span>
+                        <span className="badge bg-dark" >Python</span>
+
+
+
                     </div>
                 </div>
             </section>
+
 
         </div>
     )
