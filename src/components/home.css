@@ -21,10 +21,6 @@
   font-weight: 500;
 }
 
-.home .button {
-  /* margin-top: 10px; */
-}
-
 .home .button button {
   outline: none;
   color: white;
@@ -61,8 +57,8 @@
 
 @media (max-width: 715px) {
   .clleg {
-    top: 30px;
-    left: 50px;
+    top: 60px;
+    left: 70px;
   }
 }
 
@@ -86,7 +82,7 @@
     font-size: 30px;
   }
   .clleg {
-    top: 50px;
+    top: 70px;
     left: 60px;
   }
   .home .text .text-two {
