@@ -11,15 +11,11 @@ function Home() {
                         <div className="text">
                             <div className="text-one">Hello,</div>
                             <div className="text-two">I'm Varun Sharma</div>
-                            <div className="text-three">
-                            </div>
-
-
                         </div>
-                        <div className="button">
-                            <a href="mailto:varunsh170502@gmail.com?subject=Regarding Hiring you &body=Hello Varun, I am ..."><button>Hire Me</button></a>
-
-                        </div>
+                    </div>
+                    <div className="clleg">
+                        <a href="#">NSUT</a>
+                        <h6>2nd Year</h6>
                     </div>
                 </div>
             </div>
