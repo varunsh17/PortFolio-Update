@@ -14,8 +14,8 @@ function Home() {
                         </div>
                     </div>
                     <div className="clleg">
-                        <a href="#">NSUT</a>
-                        <h6>2nd Year</h6>
+                        <a href="http://www.nsit.ac.in/">NSUT</a>
+                        <h6>2020-2024</h6>
                     </div>
                 </div>
             </div>
