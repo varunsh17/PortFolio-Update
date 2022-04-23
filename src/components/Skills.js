@@ -15,7 +15,7 @@ function Skills() {
                         <span className="badge bg-dark" >Python</span>
                         <span className="badge bg-dark" >Bootstrap</span>
                         <span className="badge bg-dark" >Html & Css</span>
-                        <span className="badge bg-dark" ><a href="https://www.codechef.com/users/varunsh17" target="_blank" style={{ color: "white" }}>Codechef</a></span>
+                        <span className="badge bg-dark" ><a href="https://www.codechef.com/users/shanky17" target="_blank" style={{ color: "white" }}>Codechef</a></span>
                         <span className="badge bg-dark" ><a href="https://leetcode.com/varunsh170502/" target="_blank" style={{ color: "white" }}>Leetcode</a></span>
 
 
