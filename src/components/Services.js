@@ -29,7 +29,7 @@ function Services() {
                 </div>
                 {/* 3RD */}
                 <div className="card my-4" style={{ width: '20rem' }}>
-                    <img src="https://i2.wp.com/devdactic.com/wp-content/uploads/2020/10/ionic-firebase-chat.png?resize=720%2C400&ssl=1" className="card-img-top" alt="..." style={{ height: "35vh" }} />
+                    <img src="https://blog.logrocket.com/wp-content/uploads/2022/06/react-firebase-chat-app.png" className="card-img-top" alt="..." style={{ height: "35vh" }} />
                     <div className="card-body">
                         <h5 className="card-title">FireChat</h5>
                         <p className="card-text">A Chatting website made using Firebase and React-js as real time database with google authentication  </p>
